@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BootstrapButton">
+        <attr name="bb_type" format="string"/>
+        <attr name="bb_icon_left" format="string"/>
+        <attr name="bb_icon_right" format="string"/>
+        <attr name="bb_roundedCorners" format="boolean"/>
+        <attr name="bb_text_alignment" format="string"/>
+        <attr name="bb_size" format="string"/>
+        <attr name="bb_text_gravity" format="string"/>
+        <attr name="android:textSize"/>
+        <attr name="android:text"/>
+        <attr name="android:enabled"/>
+		<attr name="android:layout_width"/>
+    </declare-styleable>
+    
+     <declare-styleable name="FontAwesomeText">
+        <attr name="fa_icon" format="string"/>
+        <attr name="android:textSize"/>
+        <attr name="android:textColor"/>
+      </declare-styleable>
+      
+     <declare-styleable name="BootstrapEditText">
+        <attr name="be_roundedCorners" format="boolean"/>
+        <attr name="be_state" format="string"/>
+        <attr name="android:textSize"/>
+        <attr name="android:text"/>
+        <attr name="android:hint"/>
+        <attr name="android:enabled"/>
+        
+    </declare-styleable>
+    
+     <declare-styleable name="BootstrapThumbnail"> 
+         <attr name="bt_roundedCorners" format="boolean"/>
+         <attr name="bt_image" format="integer"/>
+         <attr name="bt_width" format="dimension"/>
+         <attr name="bt_height" format="dimension"/>
+         <attr name="bt_inside_padding" format="dimension"/>
+         <attr name="android:text"/>
+     </declare-styleable>
+
+    <declare-styleable name="BootstrapCircleThumbnail">
+        <attr name="bct_image" format="integer"/>
+        <attr name="bct_size" format="string" />
+        <attr name="bct_minimal" format="boolean" />
+        <attr name="android:text"/>
+    </declare-styleable>
+    
+    <!-- Added by SUKOHI 18 Apr, 2014 -->
+	<declare-styleable name="BootstrapCallout">
+		<attr name="bc_type" format="string"/>
+		<attr name="bc_title_text" format="string"/>
+		<attr name="bc_description_text" format="string"/>
+		<attr name="bc_title_text_size" format="integer"/>
+		<attr name="bc_description_text_size" format="integer"/>
+		<attr name="bc_background_color" format="integer"/>
+	</declare-styleable>
+    
+    <!-- Added by SUKOHI 21 Apr, 2014 -->
+	<declare-styleable name="BootstrapHeadline">
+		<attr name="bh_type" format="string"/>
+		<attr name="bh_text" format="string"/>
+		<attr name="bh_text_size" format="integer"/>
+		<attr name="bh_underline_width" format="integer"/>
+	</declare-styleable>
+	
+    <!-- Added by SUKOHI 21 Apr, 2014 -->
+	<declare-styleable name="BootstrapCheckBox">
+		<attr name="bcb_type" format="string"/>
+		<attr name="bcb_text" format="string"/>
+		<attr name="bcb_text_size" format="integer"/>
+		<attr name="bcb_checked" format="boolean"/>
+	</declare-styleable>
+	
+    <!-- Added by SUKOHI 26 Apr, 2014 -->
+	<declare-styleable name="BootstrapSlideButton">
+		<attr name="bsb_type" format="string"/>
+		<attr name="bsb_slide_mode" format="string"/>
+		<attr name="bsb_right_text" format="string"/>
+		<attr name="bsb_center_text" format="string"/>
+		<attr name="bsb_left_text" format="string"/>
+		<attr name="bsb_text_size" format="integer"/>
+		<attr name="bsb_right_icon" format="string"/>
+		<attr name="bsb_left_icon" format="string"/>
+		<attr name="bsb_padding" format="integer"/>
+		<attr name="bsb_padding_top" format="integer"/>
+		<attr name="bsb_padding_right" format="integer"/>
+		<attr name="bsb_padding_bottom" format="integer"/>
+		<attr name="bsb_padding_left" format="integer"/>
+		<attr name="bsb_restorable" format="boolean"/>
+	</declare-styleable>
+	
+</resources>
